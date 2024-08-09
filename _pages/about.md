@@ -1,11 +1,18 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "个人简介"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+陈帅飞，紫金山实验室与东南大学双聘博士后研究员，获得中国博士后科学基金面上资助，入选江苏省卓越博士后计划。
+本科及博士毕业于北京交通大学电子信息工程学院，师从[章嘉懿教授](https://faculty.bjtu.edu.cn/8946/)。
+2019年至2022年分别前往瑞典林雪平大学[Erik G. Larsson](https://liu.se/en/employee/erila39)教授（IEEE Fellow）团队和瑞典皇家理工学院[Emil Björnson](https://ebjornson.com/research/biography/)（IEEE Fellow）教授团队访问交流。
+2023年加入东南大学首席教授、紫金山实验室课题负责人[王承祥](https://ncrl.seu.edu.cn/2023/1024/c34871a469485/page.htm)教授（欧洲科学院院士，IEEE Fellow）团队从事6G/B6G无线通信、信道地图使能的无线通信系统性能优化研究。
+主持中国博士后科学基金面上项目，已发表论文20篇，包含ESI高被引论文1篇，授权发明专利1项，[谷歌学术](https://scholar.google.com.hk/citations?user=hikpVewAAAAJ)引用1000余次。
+曾连续三年获国家奖学金，连续两年获IEEE ComSoc Student Grant资助，获中国研究生电子设计竞赛全国二等奖、IEEE Transactions on Communications 模范审稿人和IEEE Communications Letters 模范审稿人等奖励和荣誉称号，被北京交通大学官网收录于“[交大人物-学子](https://news.bjtu.edu.cn/info/1024/34976.htm)”专栏。
 
 This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
