@@ -9,6 +9,29 @@
 <title>Dr. Shuaifei Chen</title>
 </head>
 <body>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>展开/折叠条目</title>
+<style>
+  .statement {
+    cursor: pointer;
+    color: blue;
+  }
+
+  .more-link {
+    color: blue;
+    cursor: pointer;
+  }
+
+  .content {
+    display: none;
+  }
+</style>
+</head>
+
 <table summary="Table for page layout." id="tlayout">
 <tr valign="top">
 <td id="layout-menu">
@@ -47,6 +70,29 @@ Email: shuaifeichen@seu.edu.cn <br />
   陈帅飞博士学位论文“去蜂窝大规模多天线系统初始接入与干扰抑制研究”入选为北京交通大学2023年度优秀博士论文。</p>
 </li>
 </ul>
+<body>
+
+<p>
+  <span class="statement">[+] 2023.06</span> The doctoral dissertation of Shuaifei Chen, “Initial Access and Interference Suppression for Cell-Free Massive MIMO Systems” was selected for the Outstanding doctoral dissertation of Beijing Jiaotong University in 2023. <a href="https://gs.bjtu.edu.cn/cms/item/3015.html">[link]</a><br /> 陈帅飞博士学位论文“去蜂窝大规模多天线系统初始接入与干扰抑制研究”入选为北京交通大学2023年度优秀博士论文.
+  <span class="more-link">更多内容</span>
+  <div class="content">
+    这里放更多的内容...
+  </div>
+</p>
+
+<script>
+  const moreLinks = document.querySelectorAll('.more-link');
+
+  moreLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      const content = link.nextElementSibling;
+      content.classList.toggle('content');
+    });
+  });
+</script>
+
+</body>
+</html>
 <h2>About Me</h2>
 <p>Shuaifei Chen (Member, IEEE) received a B.S. degree in communication engineering and a Ph.D. degree in information and communication engineering from Beijing Jiaotong University, China, in 2018 and 2023, respectively. From 2019 to 2020, he visited the Department of Communication Systems, Linköping University, Sweden. From 2021 to 2022, he visited the Division of Communication Systems, KTH Royal Institute of Technology, Sweden.</p>
 <p>He is currently a Research Fellow with the Pervasive Communication Research Center, Purple Mountain Laboratories, Nanjing, China; and also a Postdoctoral Researcher with the National Mobile Communications Research Laboratory, School of Information Science and Engineering, Southeast University, Nanjing. His research interests include signal processing and resource allocation for wireless communications, cell-free massive MIMO, and digital twin-aided 6G multiple antenna technologies. He was recognized as an Exemplary Reviewer of IEEE Transactions on Communications in 2021 and IEEE Communications Letters in 2023. <br /><br /></p>
