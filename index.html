@@ -98,3 +98,64 @@ Email: shuaifeichen@seu.edu.cn <br />
 </table>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Expand/Collapse List Item</title>
+<style>
+  /* 样式可以根据需要进行调整 */
+  .collapsible {
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .content {
+    display: none;
+  }
+</style>
+</head>
+<body>
+
+<h2>News</h2>
+<ul>
+  <li>
+    <p>[<span class="statement">2024.06</span>]  Shuaifei Chen was approved for the 75th general grant of the China Postdoctoral Science Foundation. <br />
+    陈帅飞获批中国博士后科学基金第75批面上资助。 </p>
+  </li>
+  <li>
+    <p>[<span class="statement">2024.06</span>]  Shuaifei Chen was selected for the Distinguished Postdoctoral Program in Jiangsu in 2024. <a href="https://jshrss.jiangsu.gov.cn/art/2024/6/12/art_78504_11268808.html">[link]</a><br />
+    陈帅飞入选2024年度江苏省卓越博士后计划。 </p>
+  </li>
+  <li>
+    <p>
+      [<span class="statement">2023.06</span>] The doctoral dissertation of Shuaifei Chen, “Initial Access and Interference Suppression for Cell-Free Massive MIMO Systems” was selected for the Outstanding doctoral dissertation of Beijing Jiaotong University in 2023.
+      <button class="collapsible">Toggle</button>
+      <div class="content">
+        <a href="https://gs.bjtu.edu.cn/cms/item/3015.html">[link]</a><br />
+        陈帅飞博士学位论文“去蜂窝大规模多天线系统初始接入与干扰抑制研究”入选为北京交通大学2023年度优秀博士论文。
+      </div>
+    </p>
+  </li>
+</ul>
+
+<script>
+  const coll = document.getElementsByClassName("collapsible");
+
+  for (let i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      const content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+</script>
+
+</body>
+</html>
