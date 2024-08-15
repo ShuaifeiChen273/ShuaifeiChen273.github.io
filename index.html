@@ -8,6 +8,15 @@
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 <title>Dr. Shuaifei Chen</title>
 </head>
+  
+<style>
+.accordion {background-color: #eee; color: #444; cursor: pointer; padding: 10px; width: 100%; text-align: left; border: none; outline: none; transition: 0.4s;} /* 打开和关闭手风琴面板的样式 */
+.active, .accordion:hover {background-color: #ccc;}/* 设置点击和鼠标移到选项上面时（悬停）的样式 */
+.panel {padding: 1 18px; background-color: white; max-height: 0; overflow: hidden; transition: max-height 0.2s ease-out;} /* 为手风琴面板设计样式。 默认隐藏 */
+.accordion:after {content: '\002B'; color: #777; font-weight: bold; float: right; margin-left: 5px;} /* Unicode 字符 + 号 */
+.active:after {content: "\2212";  /* Unicode 字符 - 号 *}
+</style>
+
 <body>
 <table summary="Table for page layout." id="tlayout">
 <tr valign="top">
@@ -47,29 +56,16 @@ Email: shuaifeichen@seu.edu.cn <br />
   陈帅飞博士学位论文“去蜂窝大规模多天线系统初始接入与干扰抑制研究”入选为北京交通大学2023年度优秀博士论文。</p>
 </li>
 </ul>
-<body>
-
-<p>
-  <span class="statement">[+] 2023.06</span> The doctoral dissertation of Shuaifei Chen, “Initial Access and Interference Suppression for Cell-Free Massive MIMO Systems” was selected for the Outstanding doctoral dissertation of Beijing Jiaotong University in 2023. <a href="https://gs.bjtu.edu.cn/cms/item/3015.html">[link]</a><br /> 陈帅飞博士学位论文“去蜂窝大规模多天线系统初始接入与干扰抑制研究”入选为北京交通大学2023年度优秀博士论文.
-  <span class="more-link">更多内容</span>
-  <div class="content">
-    这里放更多的内容...
-  </div>
-</p>
-
-<script>
-  const moreLinks = document.querySelectorAll('.more-link');
-
-  moreLinks.forEach(link => {
-    link.addEventListener('click', () => {
-      const content = link.nextElementSibling;
-      content.classList.toggle('content');
-    });
-  });
-</script>
-
-</body>
-</html>
+  
+<button class="accordion">&#9658; <b>Read More</b></button>
+<div class="panel">
+<ul>
+<li><p>[<span class="statement">2024.06</span>]  Shuaifei Chen was approved for the 75th general grant of the China Postdoctoral Science Foundation. <br />
+  陈帅飞获批中国博士后科学基金第75批面上资助。 </p>
+</li>
+</ul>
+</div>
+  
 <h2>About Me</h2>
 <p>Shuaifei Chen (Member, IEEE) received a B.S. degree in communication engineering and a Ph.D. degree in information and communication engineering from Beijing Jiaotong University, China, in 2018 and 2023, respectively. From 2019 to 2020, he visited the Department of Communication Systems, Linköping University, Sweden. From 2021 to 2022, he visited the Division of Communication Systems, KTH Royal Institute of Technology, Sweden.</p>
 <p>He is currently a Research Fellow with the Pervasive Communication Research Center, Purple Mountain Laboratories, Nanjing, China; and also a Postdoctoral Researcher with the National Mobile Communications Research Laboratory, School of Information Science and Engineering, Southeast University, Nanjing. His research interests include signal processing and resource allocation for wireless communications, cell-free massive MIMO, and digital twin-aided 6G multiple antenna technologies. He was recognized as an Exemplary Reviewer of IEEE Transactions on Communications in 2021 and IEEE Communications Letters in 2023. <br /><br /></p>
@@ -96,66 +92,23 @@ Email: shuaifeichen@seu.edu.cn <br />
 </td>
 </tr>
 </table>
-</body>
-</html>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Expand/Collapse List Item</title>
-<style>
-  /* 样式可以根据需要进行调整 */
-  .collapsible {
-    cursor: pointer;
-    user-select: none;
-  }
-
-  .content {
-    display: none;
-  }
-</style>
-</head>
-<body>
-
-<h2>News</h2>
-<ul>
-  <li>
-    <p>[<span class="statement">2024.06</span>]  Shuaifei Chen was approved for the 75th general grant of the China Postdoctoral Science Foundation. <br />
-    陈帅飞获批中国博士后科学基金第75批面上资助。 </p>
-  </li>
-  <li>
-    <p>[<span class="statement">2024.06</span>]  Shuaifei Chen was selected for the Distinguished Postdoctoral Program in Jiangsu in 2024. <a href="https://jshrss.jiangsu.gov.cn/art/2024/6/12/art_78504_11268808.html">[link]</a><br />
-    陈帅飞入选2024年度江苏省卓越博士后计划。 </p>
-  </li>
-  <li>
-    <p>
-      [<span class="statement">2023.06</span>] The doctoral dissertation of Shuaifei Chen, “Initial Access and Interference Suppression for Cell-Free Massive MIMO Systems” was selected for the Outstanding doctoral dissertation of Beijing Jiaotong University in 2023.
-      <button class="collapsible">Toggle</button>
-      <div class="content">
-        <a href="https://gs.bjtu.edu.cn/cms/item/3015.html">[link]</a><br />
-        陈帅飞博士学位论文“去蜂窝大规模多天线系统初始接入与干扰抑制研究”入选为北京交通大学2023年度优秀博士论文。
-      </div>
-    </p>
-  </li>
-</ul>
-
+  
 <script>
-  const coll = document.getElementsByClassName("collapsible");
+var acc = document.getElementsByClassName("accordion");
+var i;
 
-  for (let i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function() {
-      this.classList.toggle("active");
-      const content = this.nextElementSibling;
-      if (content.style.display === "block") {
-        content.style.display = "none";
-      } else {
-        content.style.display = "block";
-      }
-    });
-  }
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
 </script>
-
+  
 </body>
 </html>
