@@ -1,0 +1,11 @@
+@article{chen2021structured,
+  title={Structured massive access for scalable cell-free massive {MIMO} systems},
+  author={Chen, Shuaifei and Zhang, Jiayi and Bj{\"o}rnson, Emil and Zhang, Jing and Ai, Bo},
+  journal={IEEE J. Sel. Areas Commun.},
+  volume={39},
+  number={4},
+  pages={1086--1100},
+  year={2021},
+  month={Apr.},
+  publisher={IEEE}
+}
