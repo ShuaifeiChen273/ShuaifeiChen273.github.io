@@ -1,0 +1,11 @@
+@article{chen2022survey,
+  title={A survey on user-centric cell-free massive {MIMO} systems},
+  author={Chen, Shuaifei and Zhang, Jiayi and Zhang, Jing and Bj{\"o}rnson, Emil and Ai, Bo},
+  journal={Digit. Commun. Netw.},
+  volume={8},
+  number={5},
+  pages={695--719},
+  year={2022},
+  month={Oct.},
+  publisher={Elsevier}
+}

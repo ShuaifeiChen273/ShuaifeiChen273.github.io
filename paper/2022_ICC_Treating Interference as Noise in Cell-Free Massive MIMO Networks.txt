@@ -1,0 +1,7 @@
+@inproceedings{chen2022treating,
+  title={Treating interference as noise in cell-free massive {MIMO} networks},
+  author={Chen, Shuaifei and Zhang, Jiayi and Chen, Zheng and Ai, Bo},
+  booktitle={Proc. IEEE ICC'22},
+  pages={1385--1390},
+  year={Seoul, Korea, Republic of, May 2022}
+}

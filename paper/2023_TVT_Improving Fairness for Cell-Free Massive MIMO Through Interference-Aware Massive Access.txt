@@ -1,0 +1,11 @@
+@article{chen2022improving,
+  title={Improving fairness for cell-free massive {MIMO} through interference-aware massive access},
+  author={Chen, Shuaifei and Zhang, Jiayi and Bj{\"o}rnson, Emil and Ai, Bo},
+  journal={IEEE Trans. Veh. Technol.},
+  volume={72},
+  number={4},
+  pages={5468--5472},
+  year={2022},
+  month={Apr.},
+  publisher={IEEE}
+}

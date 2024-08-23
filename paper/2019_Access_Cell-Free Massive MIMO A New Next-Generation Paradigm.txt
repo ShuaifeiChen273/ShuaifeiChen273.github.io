@@ -1,0 +1,11 @@
+@article{zhang2019cell,
+  title={Cell-free massive {MIMO}: A new next-generation paradigm},
+  author={Zhang, Jiayi and Chen, Shuaifei and Lin, Yan and Zheng, Jiakang and Ai, Bo and Hanzo, Lajos},
+  journal={IEEE Access},
+  volume={7},
+  number={},
+  pages={99878--99888},
+  year={2019},
+  month={July},
+  publisher={IEEE}
+}

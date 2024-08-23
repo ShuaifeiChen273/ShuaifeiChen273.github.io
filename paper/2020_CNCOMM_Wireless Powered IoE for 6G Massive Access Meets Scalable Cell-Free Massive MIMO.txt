@@ -1,0 +1,11 @@
+@article{chen2020wireless,
+  title={Wireless powered {IoE} for {6G}: Massive access meets scalable cell-free massive {MIMO}},
+  author={Chen, Shuaifei and Zhang, Jiayi and Jin, Yu and Ai, Bo},
+  journal={China Communications},
+  volume={17},
+  number={12},
+  pages={92--109},
+  year={2020},
+  month={Dec.},
+  publisher={IEEE}
+}

@@ -1,0 +1,7 @@
+@inproceedings{chen2021wireless,
+  title={Wireless caching: Cell-free versus small cells},
+  author={Chen, Shuaifei and Zhang, Jiayi and Bj{\"o}rnson, Emil and Wang, Shuai and Xing, Chengwen and Ai, Bo},
+  booktitle={Proc. IEEE ICC'21},
+  pages={1--6},
+  year={Montreal, QC, Canada, June 2021}
+}

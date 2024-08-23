@@ -1,0 +1,11 @@
+@article{chen2023energy,
+  title={Energy-efficient cell-free massive {MIMO} through sparse large-scale fading processing},
+  author={Chen, Shuaifei and Zhang, Jiayi and Bj{\"o}rnson, Emil and Demir, {\"O}zlem Tu{\u{g}}fe and Ai, Bo},
+  journal={IEEE Trans. Wireless Commun.},
+  volume={22},
+  number={12},
+  pages={9374--9389},
+  year={2023},
+  month={Dec.},
+  publisher={IEEE}
+}

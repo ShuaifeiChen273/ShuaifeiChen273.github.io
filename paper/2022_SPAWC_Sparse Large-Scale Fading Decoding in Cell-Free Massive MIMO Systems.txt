@@ -1,0 +1,7 @@
+@inproceedings{chen2022sparse,
+  title={Sparse large-scale fading decoding in cell-free massive {MIMO} systems},
+  author={Chen, Shuaifei and Zhang, Jiayi and Bj{\"o}rnson, Emil and Demir, {\"O}zlem Tu{\u{g}}fe and Ai, Bo},
+  booktitle={Proc. SPAWC'22},
+  pages={1--5},
+  year={Oulu, Finland, July 2022}
+}

@@ -1,0 +1,7 @@
+@inproceedings{chen2018performance,
+  title={Performance Analysis of Wireless Powered {UAV} Relaying Systems Over $\kappa$-$\mu$ Fading Channels},
+  author={Chen, Shuaifei and Zhang, Jiayi and Zeng, Wen and Peppas, Kostas P and Ai, Bo},
+  booktitle={Proc. IEEE GC'18 Workshops},
+  pages={1--6},
+  year={Abu Dhabi, United Arab Emirates, Dec. 2018}
+}
