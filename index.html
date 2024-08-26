@@ -16,8 +16,23 @@
 .accordion:after {content: '\002B'; color: #777; font-weight: bold; float: right; margin-left: 5px;} /* Unicode 字符 + 号 */
 .active:after {content: "\2212";  /* Unicode 字符 - 号 *}
 </style>
- 
+  
+<style>
+#myBtn {
+  display: none; position: fixed; bottom: 20px; right: 30px; z-index: 99; border: none; outline: none;
+  background-color: red; color: white; cursor: pointer; padding: 15px; border-radius: 10px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+</style>
+
 <body>
+
+<button onclick="topFunction()" id="myBtn" title="回顶部">Back to top</button>
+
+
 <table summary="Table for page layout." id="tlayout">
 <tr valign="top">
 <td id="layout-menu">
@@ -123,6 +138,7 @@ Email: shuaifeichen@seu.edu.cn <br />
   陈帅飞于2018年自北京交通大学获得通信工程工学学士学位，并直博保研至本校章嘉懿教授门下攻读博士学位。</p>
 </li>
 </ul>
+  <a href="https://shuaifeichen273.github.io/index.html">Back to top</a>
 </div>
   
 <h2> 😉 About Me</h2>
@@ -213,5 +229,24 @@ for (i = 0; i < acc.length; i++) {
 }
 </script>
   
+<script>
+// 当网页向下滑动 20px 出现"返回顶部" 按钮
+window.onscroll = function() {scrollFunction()};
+ 
+function scrollFunction() {console.log(121);
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+ 
+// 点击按钮，返回顶部
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
 </body>
 </html>
