@@ -2,6 +2,6 @@
   title={Channel map-based angle domain multiple access for cell-free massive {MIMO} communications},
   author={Chen, Shuaifei and Wang, Cheng-Xiang and Li, Junling and Huang, Chen and Chang, Hengtai and Huang, Yusong and Huang, Jie and Chen, Yunfei},
   journal={IEEE J. Sel. Top. Signal Process.},
-  year={accepted for publication, 2025},
+  year={to appear, 2025},
   publisher={IEEE}
 }
