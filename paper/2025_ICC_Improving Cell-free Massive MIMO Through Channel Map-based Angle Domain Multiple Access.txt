@@ -1,0 +1,6 @@
+@inproceedings{chen2025improving,
+  title={Improving cell-free massive {MIMO} through channel map-based angle domain multiple access},
+  author={Chen, Shuaifei and Wang, Cheng-Xiang and Li, Junling and Huang, Chen and Chang, Hengtai and Chen, Yunfei},
+  booktitle={Proc. IEEE ICC'25},
+  year={Montreal, Canada, to appear, 2025}
+}
