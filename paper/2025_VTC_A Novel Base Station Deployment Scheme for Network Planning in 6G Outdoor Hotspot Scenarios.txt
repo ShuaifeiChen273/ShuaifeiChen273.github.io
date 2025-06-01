@@ -1,6 +1,6 @@
 @inproceedings{chen2025anovel,
   title={A novel base station deployment scheme for network planning in 6G outdoor hotspot scenarios},
-  author={Chen, Dantong and Chen, Shuaifei and Yang Songjiang and Jie Huang and Xiping WU and Wang, Cheng-Xiang},
+  author={Chen, Dantong and Chen, Shuaifei and Yang, Songjiang and Huang, Jie and Wu, Xiping and Wang, Cheng-Xiang},
   booktitle={Proc. IEEE VTC'25-Fall},
   year={Chengdu, China, to appear, 2025}
 }
