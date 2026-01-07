@@ -2,6 +2,8 @@
   title={A novel base station deployment scheme for network planning in 6G outdoor hotspot scenarios},
   author={Chen, Dantong and Chen, Shuaifei and Yang, Songjiang and Huang, Jie and Wu, Xiping and Wang, Cheng-Xiang},
   booktitle={Proc. IEEE VTC'25-Fall},
-  year={Chengdu, China, to appear, 2025}
+  year={Chengdu, China, Oct. 2025},
+  pages={1-5}
 }
+
 
