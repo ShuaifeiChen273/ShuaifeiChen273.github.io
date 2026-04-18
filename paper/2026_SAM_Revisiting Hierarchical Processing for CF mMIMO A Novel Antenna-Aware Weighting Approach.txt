@@ -3,5 +3,5 @@
   author={Wang, Zhe and Chen, Shuaifei and Bj{\"o}rnson, Emil},
   booktitle={Proc. IEEE SAM'26},
   year={Shenzhen, China, July 2026},
-  pages={1-6}
+  pages={1-5}
 }
