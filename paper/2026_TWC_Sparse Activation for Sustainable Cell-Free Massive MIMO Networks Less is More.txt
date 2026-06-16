@@ -1,0 +1,5 @@
+@article{wang2026sparse,
+  title={Sparse Activation for Sustainable Cell-Free Massive {MIMO} Networks: Less is More},
+  author={DZhe Wang and Shuaifei Chen and Emil Bj{\"o}rnson},
+  year={2026, \emph{arXiv:2606.03912}. [Online]. Available: https://arxiv.org/abs/2606.03912}
+}
