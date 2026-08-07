@@ -1,0 +1,5 @@
+@article{chen2026channel,
+  title={Channel Map-Based Channel Estimation for Near-Field UM-MIMO with Movable Planar Arrays},
+  author={Shuaifei Chen and Cheng-Xiang Wang and Chen Huang and Qianze Yang and Xiping Wu and Yunfei Chen and El-Hadi M.Aggoune},
+  year={2026, \emph{arXiv:2608.05520}. [Online]. Available: https://arxiv.org/abs/2608.05520}
+}
