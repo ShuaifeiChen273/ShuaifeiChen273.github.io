@@ -2,6 +2,6 @@
   title={Multi-Agent Reinforcement Learning for Movable Antenna-aided Cell-Free Massive MIMO Systems},
   author={Bokai Xu and Jiayi Zhang and Shuaifei Chen and Ziheng Liu and Huahua Xiao and Derrick Wing Kwan Ng and Bo Ai},
   journal={IEEE J. Sel. Areas Commun.},
-  year={to appear, 2026},
+  year={early access, 2026. doi: 10.1109/JSAC.2026.3740825.},
   publisher={IEEE}
 }
