@@ -2,6 +2,10 @@
   title={Sparse Activation for Sustainable Cell-Free Massive {MIMO} Networks: Less is More},
   author={Zhe Wang and Shuaifei Chen and Emil Bj{\"o}rnson},
   journal={IEEE Trans. Wireless Commun.},
-  year={to appear, 2026},
+  year={2026},
+  volume={25},
+  number={},
+  pages={24077-24094},
+  month={Sept.},
   publisher={IEEE}
 }
